@@ -14,13 +14,13 @@ CREATE TABLE Participants (
     q2_2            VARCHAR(50),
     q2_3            VARCHAR(50),
     q2_4            VARCHAR(50),
-    q3_1            CHAR(1),
+    q3_1            CHAR(1), /* A yes/no answer */
     q3_2            CHAR(1),
     q3_3            CHAR(1),
     q3_4            CHAR(1),
-    q4_1_item       INTEGER,
+    q4_1_category   INTEGER,
     q4_1_question   VARCHAR(300),
-    q4_2_item       INTEGER,
+    q4_2_category   INTEGER,
     q4_2_question   VARCHAR(300)
     );
 
@@ -60,7 +60,7 @@ CREATE TABLE RespondsTo (
 
 CREATE TABLE ConnectsWith (
     participant_email   VARCHAR(50),
-    almun_email         VARCHAR(50),
+    alumni_email        VARCHAR(50),
     link                VARCHAR(100)
     );
 
