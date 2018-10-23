@@ -6,10 +6,11 @@
 
 # SETUP
   * Install SQLite
-  * From command line, install homebrew and then execute the following:
+  * To access database, in "database" directory, type the following:
     ```
-    FILL THIS IN AND CREATE THE BASH SCRIPT FOR SETTING UP THE DATABASE
+    sqlite3 2468
     ```
+    This will create a database file "2468" in the database directory
 
 # DATABASE
   * Create/enter the database called "2468" by typing the following command
