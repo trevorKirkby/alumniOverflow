@@ -31,3 +31,13 @@
   * Identify keys and dependencies
   * Change how survey is stored--seems very cumbersome (maybe just make survey its own table, with key as email of survey taker?)
 
+# HTML TEMPLATES
+Currently a few skeleton templates for the html files which we will need to make
+  * survey_q#.html
+    * the #th page which a visitor will view while taking a survey (can also most likely be put in a single file, but needs JavaScript
+  * editor.html
+    * the page for an editor to edit and publish new questions
+  * answer.html
+    * the page for responders to answer questions
+  * responses.html
+    * the page for viewing responses
