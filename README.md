@@ -21,7 +21,6 @@
   * To test, for now, do the following:
     * From the "database" directory, enter "sqlite3 2468" database
     * Execute ".read createschema.sql" to create tables
-      * Should display "CREATE TABLE" 8 times.
     * Try inserting and deleting various things in the database
     * When finished, remove all data and drop tables by executing ".read dropschema.sql"
   
