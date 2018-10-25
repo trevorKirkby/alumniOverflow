@@ -42,3 +42,9 @@ Currently a few skeleton templates for the html files which we will need to make
     * the page for responders to answer questions
   * responses.html
     * the page for viewing responses
+
+# WEB TODO
+* Student Survey Page(s)
+* Moderator Review Page(s)
+* Alumni Answer Page(s)
+* Published Answers Page(s)
