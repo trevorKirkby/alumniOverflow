@@ -3,6 +3,7 @@
 # TODO:
   * Design Database [Christian, Kyle]
   * Fill out TODO
+  * Connect sqlite with python [Christian,Jared,Tanner]
 
 # SETUP
   * Install SQLite
