@@ -23,20 +23,14 @@
       * Should display "CREATE TABLE" 8 times.
     * Try inserting and deleting various things in the database
     * When finished, remove all data and drop tables by executing ".read dropschema.sql"
-
-  __NEXT STEPS:__
-  * Create a test dataset
-  * Make an automated test
-  * Add tables which others see necessary
-  * Identify keys and dependencies
-  * Change how survey is stored--seems very cumbersome (maybe just make survey its own table, with key as email of survey taker?)
   
   __TO DO [Tanner, Christian, Jared]:__
   * Add keys
   * Connect to Python
   * Write scripts for incremental database design
   * Modify to make Q4 its own table (instead of the whole survey) -- for future, add tables for other questions as well
-  
+  * Create a test dataset
+  * Make an automated test
 
 # HTML TEMPLATES
 Currently a few skeleton templates for the html files which we will need to make
